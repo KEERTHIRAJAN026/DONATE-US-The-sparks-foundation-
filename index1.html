@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Donate Us | Home</title>
+	<style type="text/css">
+
+		body{
+		 max-width:100%;
+		 max-height: 100%;
+		  background-image: url('https://miro.medium.com/max/1050/1*8WloBvD0mzV-bCEhd9HDuA.jpeg');
+		  background-attachment: scroll;
+   		  background-repeat: no-repeat;
+		  background-size: 100% 100%;
+		}
+		ul{
+		  background-color:#f3f3f3;
+		  list-style-type: none;
+		  margin: -10px;
+		  padding: 5px;
+		  overflow: hidden;
+		  box-shadow: 2px 2px 8px darkgrey;
+		   max-width: 1271px;
+		   background-attachment: fixed; 
+		}
+		li a{
+			font-size: 20px;
+			margin-top: 5px;
+			display: inline;
+			float: right;
+			padding: 16px 16px;
+			color: orange;
+			text-align: center;
+	  		text-decoration: none;
+		}
+		li a:hover{
+			color: black;
+	  		background-color: #ddd;
+	  		border-radius: 3px;
+		}
+		h5{
+		font-size: 20px;
+		position: relative;
+		text-align: center;
+		float: right;
+		margin-right: 260px;
+		margin-top: 350px;
+		}
+		div
+		{
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 0vh;
+			flex-direction: column;
+			background: transparent;
+		}
+		button
+		{
+			font-display:swap;
+			background: transparent;
+			position: relative;
+			display: inline-block;
+			padding:8px;
+			margin: 30px 0;
+			color: #ff471a;
+			font-size: 23px;
+			text-decoration: none;
+			overflow:hidden;
+			transition: 0.5s;
+			letter-spacing: 2px;
+			border-color: black;
+		}
+		button:hover
+		{
+			cursor: pointer;
+			background: orange;
+			color:#050801;
+			box-shadow: 0 0 2px black,
+			 			0 0 5px #ff944d,
+			 			0 0 10px black,
+			 			0 0 20px #ff944d;
+		}
+		button span{
+			position: absolute;
+			display: block;
+		}
+		button span:nth-child(1)
+		{
+			top:0;
+			left: -100;
+			width: 100%;
+			height:2px;
+			background: linear-gradient(90deg,transparent,orange);
+			animation: animate1 1s linear infinite;
+		}
+		@keyframes animate1 
+		{
+			0%
+			{
+				left: -100%;
+			}
+			50%,100%
+			{
+				left: 100%;
+			}
+		}
+		button span:nth-child(2)
+		{
+			top:-100;
+			right: 0;
+			width: 2px;
+			height:60px;
+			background: linear-gradient(180deg,transparent,orange);
+			animation: animate2 1s linear infinite;
+			animation-delay: 0.25s;
+		}
+		@keyframes animate2 
+		{
+			0%
+			{
+				top: -100%;
+			}
+			50%,100%
+			{
+				top: 100%;
+			}
+		}
+		button span:nth-child(3)
+		{
+			bottom: 0;
+			right: -100;
+			width: 100%;
+			height:2px;
+			background: linear-gradient(270deg,transparent,orange);
+			animation: animate3 1s linear infinite;
+			animation-delay: 0.5s;
+		}
+		@keyframes animate3 
+		{
+			0%
+			{
+				right: -100%;
+			}
+			50%,100%
+			{
+				right: 100%;
+			}
+		}
+		button span:nth-child(4)
+		{
+			bottom: -100;
+			left: 0;
+			width: 2px;
+			height:100%;
+			background: linear-gradient(360deg,transparent,orange);
+			animation: animate4 1s linear infinite;
+			animation-delay: 0.75s;
+		}
+		@keyframes animate4 
+		{
+			0%
+			{
+				bottom: -100%;
+			}
+			50%,100%
+			{
+				bottom: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="Contact1.html">Contact</a></li>
+		<li><a href="about1.html">About</a></li>
+  		<li><a style="color: black;"href="index1.html">Home</a></li>
+  		<p style="float: left;font-size: 40px;margin-left: 30px;margin-top: 10px;margin-bottom: 7px;"><strong style="font-family:Georgia ;color: black;">Donate<in style="color:orange;">Us</in></strong></a></p>
+	</ul>
+	<h5>
+		"Lakhs of people are in needs,<br>Your small <in style="color:#ff471a;">help</in> can save many <in style="color:#ff471a;">lives</in>"
+		 <form action="donate1.html">
+	   	<div>
+	   	<button type="submit">
+	  	<span></span>
+	  	<span></span>
+	  	<span></span>
+	  	<span></span>
+	  	&nbsp Donate &nbsp
+	  	</button>
+	  	</div>
+	  </form>
+	</h5>
+</body>
+</html>
